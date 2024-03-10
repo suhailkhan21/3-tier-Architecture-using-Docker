@@ -19,7 +19,7 @@ def addrec():
 		here=request.form
 		print(type(here))
 		print(dict(here))
-		requests.post('http://172.22.0.3:5000/test',json=dict(here))
+		requests.post('http://172.172.60.109:5000/test',json=dict(here))
 		print("id=",Id)
 		print('nm=',nm)
 		print('nm1=',nm1)
